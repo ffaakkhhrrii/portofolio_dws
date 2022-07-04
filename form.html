@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <div class="navbar">
+            <div class="logo"><img src="images/logo.png"></div>
+            <div class="nav_link">
+            <ul>
+                <li><a href="navbar.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            </div>
+            </div>
+        <div class="right-side">
+            <a href="form.html"><button>Contact Me</button></a>
+            </div>
+             </nav> 
+
+        <center>
+            <form style="width: 350px;margin-top: 50px; text-align: left; font-family: Arial;margin-bottom: 50px;">
+                <div>
+                <label for="name" style="font-size: 20px;font-weight: bold;">Name</label>
+                <input type="text" id="name" name="name" style="
+                width: 100%; 
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 10px;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 font-size: 15px;" placeholder="Masukkan Nama">
+                </div>
+    
+                <div>
+                <label for="email"  style="font-size: 20px;font-weight: bold;">Email</label>
+                <input id="email" type="email" name="email" style="
+                width: 100%; 
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 10px;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 font-size: 15px;" placeholder="Masukkan Email">
+                </div>
+    
+                <div>
+                <label for="phone"  style="font-size: 20px;font-weight: bold;">Phone Number</label>
+                <input id="phone" type="tel" name="phone" style="
+                width: 100%; 
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 10px;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 font-size: 15px;" placeholder="Masukkan No.Telepon">
+                </div>
+    
+                <div>
+                <label for="subject"  style="font-size: 20px;font-weight: bold;">Subject</label>
+                <select id="subject" style="
+                width: 100%; 
+                padding: 8px;
+                box-sizing: border-box;
+                margin-top: 10px;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 font-size: 15px;">
+                    <option value="hiring">Hiring</option>
+                    <option value="collaborate">Let's Collaboration</option>
+                    <option value="talk">Let's Talk</option>
+                </select>
+                </div>
+    
+                <div>
+                <label for="message"  style="font-size: 20px;font-weight: bold;">Your Message</label>
+                <textarea name="message" id="message" cols="30" rows="5" style="
+                width: 100%; 
+                padding: 8px;
+                margin-top: 10px;
+                box-sizing: border-box;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 margin-bottom: 20px;
+                 font-size: 15px;
+                 font-family: Arial;" placeholder="Berikan Pesan Anda"></textarea>
+                </div>
+               
+                <label style="font-size: 20px;font-weight: bold;">Skill</label>
+               
+                <div style="
+                width: 100%; 
+                padding: 8px;
+                margin-top: 10px;
+                box-sizing: border-box;
+                 margin-bottom: 20px;
+                 background-color: #CEE5D0; 
+                 border: 1px solid gray;
+                 border-radius: 8px;
+                 margin-bottom: 30px;
+                 font-size: 15px;">
+                <div>
+                    <input type="checkbox" id="skill1" name="skill1" value="frontend">
+                    <label for="skill1">Front End Dev</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="skill2" name="skill2" value="backend">
+                    <label for="skill2">Back End Dev</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="skill3" name="skill3" value="fullstack">
+                    <label for="skill3">Full Stack Dev</label>
+                </div>
+    
+                 <div>
+                    <input type="checkbox" id="skill4" name="skill4" value="designer">
+                    <label for="skill4">UI/UX Designer</label>
+                </div>
+    
+                <div>
+                    <input type="checkbox" id="skill5" name="skill5" value="mobile">
+                    <label for="skill5">Mobile Developer</label>
+                </div>
+                </div>
+    
+                <button  style="background-color: #396EB0;
+                color: white;
+                font-size: 15px;
+                padding: 10px 32px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;" type="button" onclick="submitData()">Submit</button>
+        <script src="index.js"></script>   
+        </form>
+            </center>
+    </body>
+</html>
